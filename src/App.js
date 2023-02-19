@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import Container from './components/Layout/Container/Container';
+import PolicyLookup from './components/PolicyLookup/PolicyLookup';
+import Payment from './components/Payment/Payment';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		// <Container>
+		// 	<PolicyLookup />
+		// </Container>
+		<Payment />
+	);
 }
 
 export default App;
